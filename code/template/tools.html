@@ -1,0 +1,35 @@
+<fieldset class="text-widget-panel">
+    <legend class="legend" data-rv-node="title">Widget with auto text compression/height</legend>
+    <div class="line">
+        <div class="l">Text style:</div>
+        <div class="r">
+            <input type="button" data-rv-node="bold" data-rv-event="touchend:widget.tools.text-style(bold)" value="b" class="button button-bold"/>
+            <input type="button" data-rv-node="italic" data-rv-event="touchend:widget.tools.text-style(italic)" value="i" class="button button-italic"/>
+            <input type="button" data-rv-node="underline" data-rv-event="touchend:widget.tools.text-style(underline)" value="u" class="button button-underline">
+        </div>
+    </div>
+    <div class="line">
+        <div class="l">Vertical alignment:</div>
+            <div class="r">
+                <input type="button" data-rv-node="top" data-rv-event="touchend:widget.tools.align-y(t)" value="Top" class="button"/>
+                <input type="button" data-rv-node="middle" data-rv-event="touchend:widget.tools.align-y(m)" value="Middle" class="button"/>
+                <input type="button" data-rv-node="bottom" data-rv-event="touchend:widget.tools.align-y(b)" value="Bottom" class="button"/>
+            </div>
+    </div>
+    <div class="line">
+        <div class="l">Horizontal alignment:</div>
+        <div class="r">
+            <input type="button" data-rv-node="left" value="Left" data-rv-event="touchend:widget.tools.align-x(l)" class="button"/>
+            <input type="button" data-rv-node="center" value="Center" data-rv-event="touchend:widget.tools.align-x(c)" class="button"/>
+            <input type="button" data-rv-node="right" value="Right" data-rv-event="touchend:widget.tools.align-x(r)" class="button"/>
+        </div>
+    </div>
+    <div class="line">
+        <div class="l">Your text:</div>
+        <div class="r">
+            <input
+                    data-rv-event="input:widget.tools.input;focus:'widget.tools.input.focus;blur:widget.tools.input.blur"
+                    type="text" data-rv-node="textInput" class="text-input underline"/>
+        </div>
+    </div>
+</fieldset>

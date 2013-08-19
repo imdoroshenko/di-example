@@ -1,0 +1,1 @@
+SERVICES['constructor']['global-event-manager'] = SERVICES['constructor']['event-manager'];
